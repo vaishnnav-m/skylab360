@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKYLAB 360</title>
+
+  <link rel="stylesheet" href="body.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="services.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="container">
+   <div class="header">
+
+    <div class="logo-div">
+      <img class="logo" src="images-vedios/3ft41.png" alt="">
+    </div>
+
+    <div class="links">
+    <a class="link active" href="#">HOME</a>
+    <a class="link" href="#">SERVICES</a>
+    <a class="link" href="#">CONTACT US</a>
+    <button onclick='showSidebar()' class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+    </div>                                    
+   </div>
+
+   <div class="sidebar">
+    <button onclick="cancelSidebar()" class="cancel-btn"><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+    <a class="link-clicked " href="#">HOME</a>
+    <a class="link-clicked" href="#">SERVICES</a>
+    <a class="link-clicked" href="#">CONTACT US</a>
+    </div>
+
+   <div class="body-1">
+
+    <video class="bg-video-main" loop autoplay muted>
+     <source src="images-vedios/SKYLAB360.SKYLAB360.mp4">
+     </video>
+     
+     <div class="contact-div">
+      <a class="contact-txt" href="index.html">CONTACT US</a>
+    </div>
+
+
+   </div>
+
+   <div class="body-2">           
+
+    <div class="about-div">
+      <h1 class="about">
+      WE ARE SKYLAB 360 
+      </h1>
+      <hr class="line">
+      <p class="about-txt">
+        Skylab 360 is a tech startup company which provide complete end to end solutions for our clients from drone data acquisition, drone data processing and analysis.Our drone services include drone survey and mapping, photogrammetry data processing, 3D model generation, drone inspection and arial photography services.
+      </p>
+      
+    </div>
+
+
+    <div class="drone-image-div">
+      <img  class="drone-image"src="https://skyx.co.in/wp-content/uploads/2022/04/About-us-Shape-1.png" alt="">
+    </div>
+
+   </div>
+
+   <div class="body-3">
+
+    <div class="service-heading">
+      <h1>OUR SERVICES</h1>
+    </div>
+
+    <div class="our-services">
+
+      <div class="services">
+
+        
+
+        <div class="service">
+          <div class="imag">
+            <img class="service-img" src="images-vedios/surveying_mapping.jpg" alt="">
+          </div>
+
+          <div class="texts">
+          <h1 class="heading">Surveying / Mapping</h1>
+          <p class="service-txt">
+            We extend services such as GIS, Drone Survey, Land survey, Stockpile Volumetric Analysis, Slope Monitoring, LIDAR, contours, and Urban Planning. Multiple deliverables offered include Orthomosaic maps, 3D Point Cloud, DEM, DTM with Centimeter-level accuracy, and 99% accurate Volumetric analysis and measurement.
+          </p>
+        </div>
+        </div>
+
+        <div class="service">
+          <div class="imag">
+            <img class="service-img" src="images-vedios/uav-inspection.jpg" alt="">
+          </div>
+
+          <div class="texts">
+          <h1 class="heading">Aerial Inspection & Analysis</h1>
+          <p class="service-txt">
+            Our Aerial Inspection services include infrastructure inspection, Powerline inspection, Wind turbine inspection, Solar panel inspection, Bridge Inspection, Railway track inspection, etc. Visual and thermal-based inspection to detect, track, and analyze any damage caused to the asset.
+          </p>
+        </div>
+        </div>
+
+        <div class="service">
+          <div class="imag">
+            <img class="service-img" src="images-vedios/drone_photography.jpg" alt="">
+          </div>
+
+          <div class="texts">
+          <h1 class="heading">Creative Aerial Content</h1>
+          <p class="service-txt">
+            With our professional aerial photography drone and editor, we deliver breathtaking cinematic aerial drone video for Commercial Real Estate Videography, Sports Event Coverage
+          </p>
+        </div>
+        </div>
+
+        <div class="service">
+          <div class="imag">
+            <img class="service-img" src="images-vedios/data_processing.jpg" alt="">
+          </div>
+
+          <div class="texts">
+          <h1 class="heading">UAV Data Processing</h1>
+          <p class="service-txt">
+            We have a team of GIS Experts and Advanced Compute Servers to process and mapping Large data. We offer deliverables like orthomosaic, 3D point cloud Map, Digital terrain models, digital surface models (DSM), Contour Maps
+          </p>
+        </div>
+        </div>
+
+      </div>
+
+   </div>
+  </div>
+
+  <div class="footer">
+    <p class="cr-txt">&#169;	SKYLAB 360 All Rights Reserved</p>
+    <div>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+  </div>
+   
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
