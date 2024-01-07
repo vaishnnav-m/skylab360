@@ -4,13 +4,14 @@
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .cr-txt{
   color: #fff;
   font-weight: 400;
   font-size: 12px;
   margin-left: 20px;
+  margin-right: 10px;
 }
 .fa-instagram,.fa-facebook,.fa-youtube,.fa-linkedin{
   color: #fff;
