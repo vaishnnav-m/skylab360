@@ -18,10 +18,10 @@
   font-size: 20px;
   margin-right: 20px;
 }
-@media(max-width:320px){
+@media(max-width:445px){
   .cr-txt{
     margin-right:19px;
     margin-left: 6px;
     font-size: 11px;
-  }
+  } 
 }
