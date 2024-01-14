@@ -16,9 +16,9 @@
 .input{
   width: 100%;
   height: 35px;
+  padding-left: 10px;
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 9px;
-  padding-left: 10px;
 }
 .form{
   width: 300px;
@@ -35,15 +35,10 @@
   border-radius: 15px;
   border: none;
   background-color:#2f00ff;
+  cursor: pointer;
 }
 .adress-div{
-  width: 300px;
-  padding-left: 15px;
-  padding-top: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(66, 120, 5);
+  width: 860px;
   box-shadow: 1px 1px 8px 0px #998c8c;
   color: #fff;
 
@@ -51,24 +46,73 @@
 .adress{
   font-size: 20px;
   line-height: 28px;
- 
 }
-.adress-img-div{
-  width: 100px;
-  display: flex;
+.adress-image-div{
+  width:100%;
+  height: 480px;
 }
-.adress-img{
+.adress-image{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+.details{
+  position: absolute;
+  top: 260px;
+  right: 180px;
+}
+.whatsapp-div{
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 50px; 
+  bottom: 50px;
+  background-color: #0a9421;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.whatsapp{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.fa-whatsapp{
+  font-size: 70px;
+  color: #fff;
+}
+
 @media(max-width:670px) {
   .c-container{
-    padding-top: 80px;
+    padding-top: 110px;
   }
   .adress-div{
     width: 100%;
   }
   .contact-info{
-    flex-direction: column-reverse;
+    flex-direction: column;
     row-gap: 40px;
+  }
+  .adress-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  .adress-image-div{
+    display: none;
+  }
+  .details{
+    position: static;
+    color: black;
+  }
+  .whatsapp-div{
+    width: 60px;
+    height: 60px;
+  }
+  .fa-whatsapp{
+    font-size: 45px;
   }
 }
